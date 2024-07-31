@@ -1,0 +1,17 @@
+vi:
+  helper:
+    title_name: "Phần mềm hướng dẫn RoR"
+  view:
+    layouts:
+      header:
+        home: "Trang chủ"
+        help: "Trợ giúp"
+        login: "Đăng nhập"
+    static_pages:
+      static_page: "Trang tĩnh"
+      help_1: "Có được sự trợ giúp học RoR ở"
+      help_2: "Trang tự học RoR"
+      help_3: "Để có được sự trợ giúp trên app đó , xem"
+      help_4: "Khóa học RoR"
+      help_5: "sách"
+      home_1: "Đây là trang chủ khóa học RoR"

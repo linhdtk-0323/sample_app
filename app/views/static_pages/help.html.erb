@@ -1,0 +1,12 @@
+<% provide :title, "Help" %>
+<h1><%= t "view.static_pages.static_page" %></h1>
+<p> 
+  <%= t "view.static_pages.help_1" %>
+  <%= link_to Settings.rails_help_url do %>
+    <%= t "view.static_pages.help_2" %>
+  <% end %>
+  <%= t "view.static_pages.help_3" %>     
+  <%= link_to Settings.rails_tutorial_url do %>
+    <em><%= t "view.static_pages.help_4" %></em> <%= t "view.static_pages.help_5" %>.
+  <% end %>
+</p>
