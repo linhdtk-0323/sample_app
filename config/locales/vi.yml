@@ -15,3 +15,10 @@ vi:
       help_4: "Khóa học RoR"
       help_5: "sách"
       home_1: "Đây là trang chủ khóa học RoR"
+    users:
+      sign_up: "Đăng kí"
+      create_my_account: "Tạo tài khoản"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      pass_confirm: "Xác nhận"
