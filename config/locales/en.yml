@@ -15,3 +15,10 @@ en:
       help_4: "Ruby on Rails Tutorial"
       help_5: "book"
       home_1: "This is the home page for the sample application"
+    users:
+      sign_up: "Sign up"
+      create_my_account: "Create my acount"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      pass_confirm: "Confirmation"
