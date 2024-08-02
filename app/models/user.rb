@@ -2,6 +2,7 @@ class User < ApplicationRecord
   before_save :downcase_email
   after_update :run_callback_after_update
 
+  PERMITTED_ATRIBUTES = %i(name email password password_confirmation).freeze
   validates :name, presence: true, length: {maximum: Settings.validate_len_name}
   validates :email, presence: true,
     length: {maximum: Settings.validate_len_email},
@@ -9,7 +10,6 @@ class User < ApplicationRecord
   has_secure_password
 
   private
-  
   def downcase_email
     email.downcase!
   end
