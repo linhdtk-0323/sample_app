@@ -24,3 +24,13 @@ en:
       pass_confirm: "Confirmation"
       warning: "Not found user!"
       success: "User creates successfully"
+    sessions:
+      invalid_email_password_combination: "invalid email password combination"
+      users: "Users"
+      acount: "Acount"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      login: "Log in"
+      new_user: "New user?"
+      sign_up_now: "Sign up now"
