@@ -47,3 +47,12 @@ vi:
       new_user: "Người dùng mới?"
       sign_up_now: "Đăng kí ngay bây giờ"
       rember_me: "Ghi nhớ mật khẩu cho lần tiếp theo"
+    activation:
+      success: "Tài khoản đã được kích hoạt"
+      invalid: "Link không tồn tại"
+      flash_not_act: "Tài khoản chưa được kích hoạt. Vui lòng check email để kích hoạt"
+      welcome: "Chào mừng đến với Sample App"
+      hello: "Xin chào, hãy nhấn vào link để kích hoạt tài khoản"
+      activate: "Kích hoạt"
+      flash_active: "Hãy kiểm tra mail để kích hoạt tài khoản"
+      subject: "Kích hoạt tài khoản"

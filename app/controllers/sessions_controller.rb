@@ -4,8 +4,13 @@ class SessionsController < ApplicationController
   def create
     user = find_user_by_email
     if authenticate_user user
-      handle_remember_me user
-      log_in_and_redirect user
+      if user.activated?
+        handle_remember_me user
+        log_in_and_redirect user
+      else
+        flash[:warning] = t "view.activation.flash_not_act"
+        redirect_to root_url, status: :see_other
+      end
     else
       handle_invalid_login
     end
