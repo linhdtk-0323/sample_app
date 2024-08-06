@@ -8,6 +8,7 @@ class User < ApplicationRecord
     length: {maximum: Settings.validate_len_email},
     format: {with: Settings.VALID_EMAIL_REGEX}, uniqueness: true
   has_secure_password
+  validates :password, presence: true, length: {minimum: Settings.digits.digit_6}, allow_nil: true
 
   def self.digest string
     cost = if ActiveModel::SecurePassword.min_cost
@@ -25,6 +26,11 @@ class User < ApplicationRecord
   def remember
     self.remember_token = User.new_token
     update_column :remember_digest, User.digest(remember_token)
+    remember_digest
+  end
+
+  def session_token
+    remember_digest || remember
   end
 
   def authenticated? remember_token
