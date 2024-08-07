@@ -32,7 +32,7 @@ class SessionsController < ApplicationController
 
   def log_in_and_redirect user
     log_in user
-    redirect_to user, status: :see_other
+    redirect_back_or user
   end
 
   def handle_invalid_login
