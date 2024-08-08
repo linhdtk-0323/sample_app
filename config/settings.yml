@@ -10,3 +10,7 @@ digits:
 size_50: 50
 gravatar_link: "https://gravatar.com/emails"
 reset_2: 2
+maximum_140: 140
+accept_file: ["image/jpeg", "image/gif", "image/png"]
+file_5: 5
+resize_to_limit: [500, 500]
