@@ -83,3 +83,8 @@ en:
   file_size: "should be less than 5MB"
   alert_js: "Maximum file size is 5MB. Please choose a smaller file."
   time_stamp: "Posted %{time} ago."
+  followers: "Followers"
+  following: "Following"
+  follow: "Follow"
+  unfollow: "Unffow"
+  microposts: "Microposts:"

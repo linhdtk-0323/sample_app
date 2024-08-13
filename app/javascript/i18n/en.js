@@ -77503,6 +77503,9 @@ I18n.translations["en"] = I18n.extend((I18n.translations["en"] || {}), {
     }
   },
   "file_size": "should be less than 5MB",
+  "follow": "Follow",
+  "followers": "Followers",
+  "following": "Following",
   "forgot_pass": "Forgot password",
   "helper": {
     "title_name": " Ruby on Rails Tutorial Sample App"
@@ -77667,6 +77670,7 @@ I18n.translations["en"] = I18n.extend((I18n.translations["en"] || {}), {
   "invalid_post": "Micropost invalid",
   "message_upload": "Phải là đuôi ảnh hợp lệ",
   "micropost": "Micropost",
+  "microposts": "Microposts:",
   "number": {
     "currency": {
       "format": {
@@ -77762,6 +77766,7 @@ I18n.translations["en"] = I18n.extend((I18n.translations["en"] || {}), {
   },
   "time_stamp": "Posted %{time} ago.",
   "to_reset": "To reset your password click the link below:",
+  "unfollow": "Unffow",
   "update_pass": "Update password",
   "upload_messages": "Must be a valid image format",
   "view": {

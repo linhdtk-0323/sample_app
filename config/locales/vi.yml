@@ -83,3 +83,8 @@ vi:
   file_size: "Ảnh nên bé hơn 5MB"
   alert_js: "Dung lượng tối đa là 5MB. Hãy chọn file có dung lượng bé hơn."
   time_stamp: "Đăng %{time} trước."
+  followers: "Những người theo dõi"
+  following: "Đang theo dõi"
+  follow: "Theo dõi"
+  unfollow: "Hủy theo dõi"
+  microposts: "Tổng số bài viết:"
