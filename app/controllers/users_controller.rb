@@ -9,6 +9,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    @page, @microposts = pagy @user.microposts, items: Settings.page_10
     return if @user
 
     flash[:warning] = t "view.users.warning"

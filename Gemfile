@@ -2,12 +2,14 @@ source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "3.2.2"
-
+gem "active_storage_validations", "0.9.8"
 gem "bcrypt", "3.1.18"
 gem "byebug"
 gem "config"
 gem "dotenv-rails"
 gem "faker"
+gem "i18n-js", "~>3.9.2"
+gem "image_processing", "1.12.2"
 gem "importmap-rails"
 gem "mysql2", "~> 0.5"
 gem "pagy"
@@ -17,7 +19,6 @@ gem "rails-i18n"
 gem "sprockets-rails"
 gem "stimulus-rails"
 gem "turbo-rails"
-
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 

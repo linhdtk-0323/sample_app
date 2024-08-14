@@ -10,7 +10,7 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
+  <body data-locale="<%= I18n.locale %>">
     <%= render partial: "layouts/header" %>
     <%= link_to "English", locale: :en %>
     <%= link_to "Vietnamese", locale: :vi %>
