@@ -12,4 +12,5 @@ class Micropost < ApplicationRecord
                            message: I18n.t("file_size")}
 
   scope :recent_posts, ->{order created_at: :desc}
+  scope :relate_post, ->(user_ids){where user_id: user_ids.present?}
 end

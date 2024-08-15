@@ -591,6 +591,9 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
     }
   },
   "file_size": "Ảnh nên bé hơn 5MB",
+  "follow": "Theo dõi",
+  "followers": "Những người theo dõi",
+  "following": "Đang theo dõi",
   "forgot_pass": "Quên mật khẩu",
   "helper": {
     "title_name": "Phần mềm hướng dẫn RoR"
@@ -754,6 +757,7 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
   "invalid_post": "Bài viết không tồn tại",
   "message_upload": "Phải là đuôi ảnh hợp lệ",
   "micropost": "Bài viết",
+  "microposts": "Tổng số bài viết:",
   "number": {
     "currency": {
       "format": {
@@ -843,6 +847,7 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
   },
   "time_stamp": "Đăng %{time} trước.",
   "to_reset": "Để thay đổi mật khẩu hãy nhấn vào link dưới đây",
+  "unfollow": "Hủy theo dõi",
   "update_pass": "Cập nhật mật khẩu",
   "view": {
     "activation": {
